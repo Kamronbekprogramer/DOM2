@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/task1.css">
+    <title>TASK 1</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="./task1.html">TASK 1</a>
+            <a href="./task2.html">TASK 2</a>
+            <a href="./task3.html">TASK 3</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="card_inputs">
+                <div class="card_header">
+                    <h1>So'zni tekshirish</h1>
+                </div>
+                <form onsubmit="checkWord(e)">
+                    <label for="">Matn kiriting:</label>
+                    <textarea name="" id="text" cols="30" rows="10"></textarea>
+                    <label for="">So'z kiriting:</label>
+                    <input id="word" type="text">
+                    <button type="submit">Check</button>
+                </form>
+            </div>
+        </div>
+        <div class="result">
+            <h2>Result:</h2>
+            <h1></h1>
+        </div>
+    </section>
+    
+
+    <script src="./js/task1.js"></script>
+</body>
+</html>
